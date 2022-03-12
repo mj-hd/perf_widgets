@@ -1,0 +1,21 @@
+name: perf_widgets
+description: experimental performance-related widgets
+version: 0.0.1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  logging: ^1.0.2
+  sliver_tools: ^0.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
