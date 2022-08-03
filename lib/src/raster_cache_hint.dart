@@ -36,6 +36,9 @@ class _RasterCacheHintRenderObject extends RenderProxyBox {
 
   @override
   void paint(PaintingContext context, Offset offset) {
+    // we need this line to generate a PictureLayer to set the hints
+    context.canvas;
+
     if (isComplex) {
       context.setIsComplexHint();
     }
